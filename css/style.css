@@ -171,3 +171,28 @@ a {
     font-size: 1.5rem;
   }
 }
+
+/* Input */
+
+.input{
+  border-radius:40px;
+  border:1px solid gray;
+  box-shadow:3px 3px 3px 3px gray;  
+  color:var(--color-heading);
+  display: inline-block;
+  font-size: 2rem;
+  margin:1rem 0rem;
+  outline: 0;
+  padding:1rem 3.5rem;
+  width: 100%;
+}
+
+::placeholder{
+  color:#cdcbd7;
+}
+
+@media screen and (min-width:1024px) {
+  .input{
+    font-size: 1.5rem;
+  }
+}
